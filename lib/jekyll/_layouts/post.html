@@ -2,16 +2,12 @@
 layout: default
 ---
 <div id="post">
-  
-<h2><a href="{{ page.url }}">{{ page.title }}</a>
-
-<h3 class="date">{{ page.date | date_to_string }}</h3>
-  
-{{ content }}
-
-<p class="small">Video player proudly powered by <a href="http://sublimevideo.net">SublimeVideo</a>.
-
+  <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+  <h3 class="date">{{ page.date | date_to_string }}</h3>
+  {{ content }}
+  <p class="small">Video player proudly powered by <a href="http://sublimevideo.net">SublimeVideo</a>.
 </div>
+
 <div id="comments">
   <div id="disqus_thread"></div>
   <script type='text/javascript'>

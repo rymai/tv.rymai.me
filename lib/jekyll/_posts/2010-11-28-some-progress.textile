@@ -1,0 +1,27 @@
+---
+layout: post
+title: Some progress!
+---
+
+h2. "{{ page.title }}":{{ page.url }}
+
+h3. {{ page.date | date_to_string }}
+
+<video class="sublime" width="640" height="480" poster="{{ site.video_storage_dir }}/posters/day22.jpg" preload="none">
+  <source src="{{ site.video_storage_dir }}/videos/day22.m4v" />
+</video>
+
+p(small). Video player proudly powered by "SublimeVideo":http://sublimevideo.net.
+
+notextile.. <div id="comments">
+  <div id="disqus_thread"></div>
+  <script type='text/javascript'>
+      var disqus_identifier = "{{ page.id }}";
+      var disqus_url = "{{ site.url }}{{ page.url }}";
+      (function() {
+          var dsq = document.createElement("script"); dsq.type = "text/javascript"; dsq.async = true;
+          dsq.src = "http://rymai-tv.disqus.com/embed.js";
+          (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(dsq);
+      })();
+  </script>
+</div>

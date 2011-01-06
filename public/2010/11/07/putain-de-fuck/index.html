@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <title>Rymai TV</title>
+
+  <script type="text/javascript" src="http://use.typekit.com/pih1cyo.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script type="text/javascript" src="http://cdn.sublimevideo.net/js/s3l9wop4.js"></script>
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" charset="utf-8">
+
+  <script type="text/javascript" charset="utf-8">
+  var toggle = {
+    show : function(nodelist_array) {
+      for (var i = nodelist_array.length - 1; i >= 0; i--){
+        for (var j = nodelist_array[i].length - 1; j >= 0; j--){
+          nodelist_array[i][j].style.color = '';
+        };
+      };
+    },
+    hide : function(nodelist_array) {
+      for (var i = nodelist_array.length - 1; i >= 0; i--){
+        for (var j = nodelist_array[i].length - 1; j >= 0; j--){
+          nodelist_array[i][j].style.color = '#000';
+        };
+      };
+    }
+  };
+
+  var elements_to_toggle = null;
+
+  function toggleTexts() {
+    if(elements_to_toggle == null) {
+      elements_to_toggle = [document.getElementsByTagName('h1'), document.getElementsByTagName('h2'), document.getElementsByTagName('h3'), document.getElementsByTagName('footer')];
+    }
+    if(document.getElementsByTagName('h1')[0].style.color != '') { // show
+      toggle.show(elements_to_toggle);
+    } else {
+      toggle.hide(elements_to_toggle);
+    }
+  }
+
+  sublimevideo.ready(function(){
+    sublimevideo.onStart(function(sv){
+      // toggleTexts();
+    });
+    sublimevideo.onEnd(function(sv){
+      // toggleTexts();
+    });
+  });
+  </script>
+</head>
+<body>
+
+  <div id="main_wrap">
+    <header>
+      <h1><a href="/">Rymai TV</a></h1>
+    </header>
+    <section id="videos">
+      <div id="post">
+<h2><a href="/2010/11/07/putain-de-fuck/">Putain de fuck!</a></h2>
+<h3>07 Nov 2010</h3>
+<video class="sublime" width="640" height="480" poster="http://remycoutable.fr/tac/posters/day2.jpg" preload="none">
+<source src="http://remycoutable.fr/tac/videos/day2.m4v" />
+</video>
+<p class="small">Video player proudly powered by <a href="http://sublimevideo.net">SublimeVideo</a>.</p>
+<div id="comments">
+  <div id="disqus_thread"></div>
+  <script type='text/javascript'>
+      var disqus_identifier = "/2010/11/07/putain-de-fuck";
+      var disqus_url = "http://rymai.tv/2010/11/07/putain-de-fuck/";
+      (function() {
+          var dsq = document.createElement("script"); dsq.type = "text/javascript"; dsq.async = true;
+          dsq.src = "http://rymai-tv.disqus.com/embed.js";
+          (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(dsq);
+      })();
+  </script>
+</div>
+</div>
+    </section>
+  </div>
+  <footer>
+    Rémy Coutable © 2011 - All rights reserved.
+  </footer>
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'rymai-tv'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+
+<!-- Google Analytics -->
+<!-- <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("");
+pageTracker._trackPageview();
+</script> -->
+<!-- Google Analytics end -->
+
+</body>
+</html>

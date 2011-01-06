@@ -1,0 +1,8 @@
+auto:        true
+server:      true
+source:      ./lib/jekyll
+destination: ./public
+permalink:   pretty
+
+url: http://rymai.tv
+video_storage_dir: http://remycoutable.fr/tac

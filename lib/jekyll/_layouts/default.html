@@ -9,47 +9,6 @@
   <script type="text/javascript" src="http://cdn.sublimevideo.net/js/s3l9wop4.js"></script>
 
   <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" charset="utf-8">
-
-  <script type="text/javascript" charset="utf-8">
-  var toggle = {
-    show : function(nodelist_array) {
-      for (var i = nodelist_array.length - 1; i >= 0; i--){
-        for (var j = nodelist_array[i].length - 1; j >= 0; j--){
-          nodelist_array[i][j].style.color = '';
-        };
-      };
-    },
-    hide : function(nodelist_array) {
-      for (var i = nodelist_array.length - 1; i >= 0; i--){
-        for (var j = nodelist_array[i].length - 1; j >= 0; j--){
-          nodelist_array[i][j].style.color = '#000';
-        };
-      };
-    }
-  };
-
-  var elements_to_toggle = null;
-
-  function toggleTexts() {
-    if(elements_to_toggle == null) {
-      elements_to_toggle = [document.getElementsByTagName('h1'), document.getElementsByTagName('h2'), document.getElementsByTagName('h3'), document.getElementsByTagName('footer')];
-    }
-    if(document.getElementsByTagName('h1')[0].style.color != '') { // show
-      toggle.show(elements_to_toggle);
-    } else {
-      toggle.hide(elements_to_toggle);
-    }
-  }
-
-  sublimevideo.ready(function(){
-    sublimevideo.onStart(function(sv){
-      // toggleTexts();
-    });
-    sublimevideo.onEnd(function(sv){
-      // toggleTexts();
-    });
-  });
-  </script>
 </head>
 <body>
 
@@ -62,7 +21,7 @@
     </section>
   </div>
   <footer>
-    Rémy Coutable © 2011 - All rights reserved.
+    Remy Coutable - Copyright 2011 - All rights reserved.
   </footer>
 
 <script type="text/javascript">
@@ -77,17 +36,6 @@
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
 </script>
-
-<!-- Google Analytics -->
-<!-- <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("");
-pageTracker._trackPageview();
-</script> -->
-<!-- Google Analytics end -->
 
 </body>
 </html>

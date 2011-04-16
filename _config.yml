@@ -5,4 +5,4 @@ destination: ./public
 permalink:   pretty
 
 url: http://rymai.tv
-video_storage_dir: http://remycoutable.fr/tac
+video_storage_dir: ""

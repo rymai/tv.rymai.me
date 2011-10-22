@@ -27,7 +27,7 @@ public/logs
 logfile
 
 ## PROJECT::SPECIFIC
-lib/jekyll/posters/*
-lib/jekyll/videos/*
-public/posters/*
-public/videos/*
+jekyll/posters/*
+jekyll/videos/*
+_site/posters/*
+_site/videos/*

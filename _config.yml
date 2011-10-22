@@ -5,4 +5,4 @@ destination: ./public
 permalink:   pretty
 
 url: http://rymai.tv
-video_storage_dir: http://remycoutable.fr/storage/rymai-tv
+video_storage_dir: http://rymai.s3.amazonaws.com/rymai.tv

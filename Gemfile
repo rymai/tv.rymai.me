@@ -10,3 +10,7 @@ gem 'RedCloth'
 
 # For Heroku deployment
 gem 'rack-jekyll'
+
+group :production do
+  gem 'unicorn'
+end

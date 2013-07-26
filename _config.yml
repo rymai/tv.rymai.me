@@ -1,5 +1,4 @@
-auto:        true
-server:      true
+serve:       true
 source:      ./jekyll
 # destination: ./public
 permalink:   pretty

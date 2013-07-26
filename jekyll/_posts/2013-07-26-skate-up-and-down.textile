@@ -1,0 +1,9 @@
+---
+layout: post
+title: Skate up and down!
+---
+
+<video class="sublime" width="864" height="480" poster="{{ site.video_storage_dir }}/posters/skate-up-and-down.jpg" preload="none" data-name="Skate up and down" data-uid="skate-up-and-down">
+  <source src="{{ site.video_storage_dir }}/videos/skate-up-and-down-480p.mp4" />
+  <source src="{{ site.video_storage_dir }}/videos/skate-up-and-down-720p.mp4" data-quality="hd" />
+</video>

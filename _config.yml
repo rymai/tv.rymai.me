@@ -1,7 +1,3 @@
-serve:       true
-source:      ./jekyll
-# destination: ./public
-permalink:   pretty
-
-url: http://rymai.tv
+permalink: pretty
+url: http://tv.rymai.me
 video_storage_dir: http://rymai.s3.amazonaws.com/rymai.tv

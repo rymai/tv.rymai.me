@@ -2,15 +2,14 @@ source 'https://rubygems.org'
 
 ruby '2.0.0'
 
-gem 'bundler'
+gem 'rake'
 
 gem 'jekyll'
+gem 'rack-contrib'
+gem 'jekyll_ext' # for ejekyll
 
 gem 'RedCloth'
 
-# For Heroku deployment
-gem 'rack-jekyll'
-
 group :production do
-  gem 'unicorn'
+  gem 'puma'
 end

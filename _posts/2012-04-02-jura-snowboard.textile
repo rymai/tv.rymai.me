@@ -1,0 +1,9 @@
+---
+layout: post
+title: Jura Snowboard 2012!
+---
+
+<video class="sublime" width="853" height="480" poster="{{ site.video_storage_dir }}/posters/snowboard-jura-2012.png" preload="none" title="Jura Snowboard 2012" data-uid="jura-snowboard-2012">
+  <source src="{{ site.video_storage_dir }}/videos/snowboard-jura-2012-480p.mp4" />
+  <source src="{{ site.video_storage_dir }}/videos/snowboard-jura-2012-720p.mp4" data-quality="hd" />
+</video>

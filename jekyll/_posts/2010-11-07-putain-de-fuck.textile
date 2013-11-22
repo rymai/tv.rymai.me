@@ -1,8 +1,0 @@
----
-layout: post
-title: Putain de fuck!
----
-
-<video class="sublime" width="640" height="480" poster="{{ site.video_storage_dir }}/posters/day2.jpg" preload="none">
-  <source src="{{ site.video_storage_dir }}/videos/day2.m4v" />
-</video>

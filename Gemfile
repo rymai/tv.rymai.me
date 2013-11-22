@@ -7,7 +7,7 @@ gem 'rake'
 gem 'jekyll'
 gem 'rack-contrib'
 gem 'jekyll_ext' # for ejekyll
-
+gem 'jekyll-assets'
 gem 'RedCloth'
 
 group :production do

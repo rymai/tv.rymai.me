@@ -1,0 +1,8 @@
+---
+layout: post
+title: I'm a zombie!
+---
+
+<video class="sublime" width="640" height="480" poster="{{ site.video_storage_dir }}/posters/day3.jpg" preload="none">
+  <source src="{{ site.video_storage_dir }}/videos/day3.m4v" />
+</video>

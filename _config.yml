@@ -1,5 +1,5 @@
 permalink: pretty
-exclude: [config.ru, Gemfile, Gemfile.lock, Rakefile, assets]
+exclude: [config.ru, Gemfile, Gemfile.lock, Rakefile, assets.yml, assets, vendor, bundle]
 url: http://tv.rymai.me
 video_storage_dir: http://rymai.s3.amazonaws.com/rymai.tv
 assets:

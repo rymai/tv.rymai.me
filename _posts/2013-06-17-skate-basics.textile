@@ -3,7 +3,7 @@ layout: post
 title: Skate basics!
 ---
 
-<video class="sublime" width="854" height="480" poster="{{ site.video_storage_dir }}/posters/skate-basics.jpg" preload="none" title="Skate basics" data-uid="skate-basics">
+<video class="sublime" width="854" height="480" poster="{{ site.video_storage_dir }}/posters/skate-basics.jpg" preload="none" title="Skate basics" data-uid="skate-basics" data-sharing-url="{{ page.url }}">
   <source src="{{ site.video_storage_dir }}/videos/skate-basics-720p.mp4" data-quality="hd" />
   <source src="{{ site.video_storage_dir }}/videos/skate-basics-480p.mp4" />
 </video>

@@ -1,0 +1,9 @@
+---
+layout: post
+title: On the Road to BZH!
+---
+
+<video class="sublime" width="640" height="480" poster="{{ site.cdn_assets_base_url }}/posters/on-the-road-to-BZH.jpg" preload="none" title="On the Road to BZH" data-uid="on-the-road-to-BZH" data-sharing-url="{{ site.url }}{{ page.url }}">
+  <source src="{{ site.cdn_assets_base_url }}/videos/on-the-road-to-BZH-720p.mp4" data-quality="hd" />
+  <source src="{{ site.cdn_assets_base_url }}/videos/on-the-road-to-BZH-480p.mp4" />
+</video>

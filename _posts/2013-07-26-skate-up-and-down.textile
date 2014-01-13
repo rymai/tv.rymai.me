@@ -3,7 +3,7 @@ layout: post
 title: Skate up and down!
 ---
 
-<video class="sublime" width="854" height="480" poster="{{ site.video_storage_dir }}/posters/skate-up-and-down.jpg" preload="none" title="Skate up and down" data-uid="skate-up-and-down" data-sharing-url="{{ site.url }}{{ page.url }}">
-  <source src="{{ site.video_storage_dir }}/videos/skate-up-and-down-720p.mp4" data-quality="hd" />
-  <source src="{{ site.video_storage_dir }}/videos/skate-up-and-down-480p.mp4" />
+<video class="sublime" width="854" height="480" poster="{{ site.cdn_assets_base_url }}/posters/skate-up-and-down.jpg" preload="none" title="Skate up and down" data-uid="skate-up-and-down" data-sharing-url="{{ site.url }}{{ page.url }}">
+  <source src="{{ site.cdn_assets_base_url }}/videos/skate-up-and-down-720p.mp4" data-quality="hd" />
+  <source src="{{ site.cdn_assets_base_url }}/videos/skate-up-and-down-480p.mp4" />
 </video>

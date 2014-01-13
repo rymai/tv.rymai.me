@@ -1,7 +1,7 @@
 permalink: pretty
 exclude: [config.ru, Gemfile, Gemfile.lock, Rakefile, assets.yml, assets, vendor, bundle]
 url: http://tv.rymai.me
-video_storage_dir: http://rymai.s3.amazonaws.com/rymai.tv
+cdn_assets_base_url: http://d1yjw8g5csx279.cloudfront.net/rymai.tv
 assets:
   cache: _cache/assets
   cachebust: hard

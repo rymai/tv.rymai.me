@@ -3,6 +3,6 @@ layout: post
 title: My first verse!
 ---
 
-<video class="sublime" width="640" height="480" poster="{{ site.video_storage_dir }}/posters/day9.jpg" preload="none">
-  <source src="{{ site.video_storage_dir }}/videos/day9.m4v" />
+<video class="sublime" width="640" height="480" poster="{{ site.cdn_assets_base_url }}/posters/day9.jpg" preload="none">
+  <source src="{{ site.cdn_assets_base_url }}/videos/day9.m4v" />
 </video>

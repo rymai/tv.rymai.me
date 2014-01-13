@@ -3,6 +3,6 @@ layout: post
 title: Some progress!
 ---
 
-<video class="sublime" width="640" height="480" poster="{{ site.video_storage_dir }}/posters/day22.jpg" preload="none">
-  <source src="{{ site.video_storage_dir }}/videos/day22.m4v" />
+<video class="sublime" width="640" height="480" poster="{{ site.cdn_assets_base_url }}/posters/day22.jpg" preload="none">
+  <source src="{{ site.cdn_assets_base_url }}/videos/day22.m4v" />
 </video>

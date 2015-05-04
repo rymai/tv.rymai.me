@@ -3,7 +3,4 @@ layout: post
 title: Skate up and down!
 ---
 
-<video class="sublime" width="854" height="480" poster="{{ site.cdn_assets_base_url }}/posters/skate-up-and-down.jpg" preload="none" title="Skate up and down" data-uid="skate-up-and-down" data-sharing-url="{{ site.url }}{{ page.url }}">
-  <source src="{{ site.cdn_assets_base_url }}/videos/skate-up-and-down-720p.mp4" data-quality="hd" />
-  <source src="{{ site.cdn_assets_base_url }}/videos/skate-up-and-down-480p.mp4" />
-</video>
+<iframe frameborder="0" width="800" height="450" src="//www.dailymotion.com/embed/video/x2okwv3?autoPlay=1" allowfullscreen></iframe>

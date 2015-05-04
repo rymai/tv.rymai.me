@@ -1,0 +1,6 @@
+---
+layout: post
+title: GoPro showreel 2014
+---
+
+<iframe frameborder="0" width="800" height="450" src="//www.dailymotion.com/embed/video/x2deh2r?autoPlay=1" allowfullscreen></iframe>

@@ -3,7 +3,4 @@ layout: post
 title: Skate basics!
 ---
 
-<video class="sublime" width="854" height="480" poster="{{ site.cdn_assets_base_url }}/posters/skate-basics.jpg" preload="none" title="Skate basics" data-uid="skate-basics" data-sharing-url="{{ site.url }}{{ page.url }}">
-  <source src="{{ site.cdn_assets_base_url }}/videos/skate-basics-720p.mp4" data-quality="hd" />
-  <source src="{{ site.cdn_assets_base_url }}/videos/skate-basics-480p.mp4" />
-</video>
+<iframe frameborder="0" width="800" height="450" src="//www.dailymotion.com/embed/video/x2p2vgu?autoPlay=1" allowfullscreen></iframe>

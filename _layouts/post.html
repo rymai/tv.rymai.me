@@ -7,6 +7,18 @@ layout: default
   {{ content }}
 </div>
 
+<div class="pagination">
+  {% if page.previous %}
+    <a href="{{ page.previous.url }}">< Previous video</a>
+    {% if page.next %}
+    |
+    {% endif %}
+  {% endif %}
+  {% if page.next %}
+    <a href="{{ page.next.url }}">Next video ></a>
+  {% endif %}
+</div>
+
 <div id="comments">
   <div id="disqus_thread"></div>
   <script type='text/javascript'>

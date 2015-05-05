@@ -3,6 +3,4 @@ layout: post
 title: Les 3 Accords!
 ---
 
-<video class="sublime" width="640" height="480" poster="{{ site.cdn_assets_base_url }}/posters/day1.jpg" preload="none">
-  <source src="{{ site.cdn_assets_base_url }}/videos/day1.m4v" />
-</video>
+<iframe frameborder="0" width="100%" height="550" src="//www.dailymotion.com/embed/video/k2zHm2kKtNZMIsb2ztb?autoPlay=1" allowfullscreen></iframe>

@@ -60,6 +60,12 @@ div.article {
   font-size:13px;
 }
 
+.pagination {
+  margin: 20px auto;
+  width: 100%;
+  text-align: center;
+}
+
 #comments {
   margin-top:50px;
 }

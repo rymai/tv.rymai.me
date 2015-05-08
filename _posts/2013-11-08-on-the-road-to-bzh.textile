@@ -3,7 +3,4 @@ layout: post
 title: On the Road to BZH!
 ---
 
-<video class="sublime" width="800" height="550" poster="{{ site.cdn_assets_base_url }}/posters/on-the-road-to-BZH.jpg" preload="none" title="On the Road to BZH" data-uid="on-the-road-to-BZH" data-sharing-url="{{ site.url }}{{ page.url }}">
-  <source src="{{ site.cdn_assets_base_url }}/videos/on-the-road-to-BZH-720p.mp4" data-quality="hd" />
-  <source src="{{ site.cdn_assets_base_url }}/videos/on-the-road-to-BZH-480p.mp4" />
-</video>
+<iframe frameborder="0" width="100%" height="550" src="//www.dailymotion.com/embed/video/k70JgMC9uCtDSmb3qQp?autoPlay=1" allowfullscreen></iframe>

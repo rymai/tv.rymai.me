@@ -3,5 +3,6 @@ _cache/
 _site/
 .bundle/bin
 .bundle/gems
+.bundle/config
 *.log
 *.lock

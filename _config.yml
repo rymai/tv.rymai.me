@@ -1,7 +1,12 @@
-permalink: pretty
 exclude: [config.ru, Gemfile, Gemfile.lock, Rakefile, assets.yml, assets, vendor, bundle]
+
+permalink: pretty
+
 url: http://tv.rymai.me
-cdn_assets_base_url: http://d1yjw8g5csx279.cloudfront.net/rymai.tv
+
 assets:
-  cache: _cache/assets
-  cachebust: hard
+  caching:
+    path: _cache/assets
+  cdn:
+    url: http://d1yjw8g5csx279.cloudfront.net/rymai.tv
+    # cachebust: hard

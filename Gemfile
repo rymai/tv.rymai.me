@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.6.5'
 
-gem 'rake', '~> 10.1.0'
+gem 'rake', '~> 12.3.3'
 
 gem 'jekyll', '~> 3.8'
 gem 'rack-contrib', '~> 2.2'

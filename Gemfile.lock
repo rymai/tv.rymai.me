@@ -85,7 +85,7 @@ GEM
     rack (2.2.2)
     rack-contrib (2.2.0)
       rack (~> 2.0)
-    rake (10.1.1)
+    rake (12.3.3)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -116,7 +116,7 @@ DEPENDENCIES
   jekyll_ext (~> 0.1)
   puma (~> 4.3)
   rack-contrib (~> 2.2)
-  rake (~> 10.1.0)
+  rake (~> 12.3.3)
 
 RUBY VERSION
    ruby 2.6.5p114

@@ -11,5 +11,5 @@ gem 'jekyll-assets', github: 'envygeeks/jekyll-assets' # '~> 3.0'
 gem 'RedCloth', '~> 4.3'
 
 group :production do
-  gem 'puma', '~> 4.3'
+  gem 'puma', '~> 5.6'
 end
